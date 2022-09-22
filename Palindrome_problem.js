@@ -1,9 +1,9 @@
 let Name = "Neelesh";
 let row = "";
-for (let i = Name.length; i >= 0; i--) {
-  row = row + Name[i]
+for (let i = Name.length-1; i >= 0; i--) {
+  row += Name[i]
 }
-if (Name != row) {
+if (Name == row) {
   console.log("Yes")
 }
 else {
